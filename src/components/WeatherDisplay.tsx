@@ -16,6 +16,14 @@ export const WeatherDisplay = ({ temperature, condition, humidity }: WeatherDisp
         return "/animations/cloudy.json";
       case "rainy":
         return "/animations/rainy.json";
+      case "snow":
+        return "/animations/largesnowfall.json";
+      case "light snow":
+        return "/animations/snowfall.json";
+      case "night":
+        return "/animations/Moon.json";
+      case "thunderstorm":
+        return "/animations/thunderstorm.json";
       default:
         return "/animations/sunny.json";
     }
