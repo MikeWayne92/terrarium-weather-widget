@@ -11,13 +11,13 @@ export const WeatherDisplay = ({ temperature, condition, humidity }: WeatherDisp
   const getWeatherAnimation = (condition: string) => {
     switch (condition.toLowerCase()) {
       case "sunny":
-        return "https://lottie.host/58802e41-c6df-49f1-9def-31c3c1bf8c7c/uJpQgKvxDY.json";
+        return "https://assets9.lottiefiles.com/packages/lf20_xlky4kvh.json";
       case "cloudy":
-        return "https://lottie.host/f1b6e98d-8c0e-4c3d-9e04-c8dedf2e0749/MHBd1S1tYX.json";
+        return "https://assets9.lottiefiles.com/private_files/lf30_jrhj4nwg.json";
       case "rainy":
-        return "https://lottie.host/ec2dd4de-6aa9-4e8c-9c4e-556c4e0d6f01/C3P1qeKxVS.json";
+        return "https://assets9.lottiefiles.com/packages/lf20_bco9p3ju.json";
       default:
-        return "https://lottie.host/58802e41-c6df-49f1-9def-31c3c1bf8c7c/uJpQgKvxDY.json";
+        return "https://assets9.lottiefiles.com/packages/lf20_xlky4kvh.json";
     }
   };
 
