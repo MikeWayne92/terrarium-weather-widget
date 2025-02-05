@@ -14,7 +14,8 @@ export const Terrarium = () => {
     <motion.div
       initial={{ scale: 0.95, opacity: 0 }}
       animate={{ scale: 1, opacity: 1 }}
-      className="w-full max-w-md mx-auto"
+      transition={{ duration: 0.5 }}
+      className="w-full max-w-sm mx-auto"
     >
       <GlassCard className="aspect-[3/4] relative overflow-hidden">
         <WeatherDisplay {...weatherData} />
