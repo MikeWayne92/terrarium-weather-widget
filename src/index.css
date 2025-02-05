@@ -38,6 +38,6 @@
   }
   
   .neomorphic {
-    @apply shadow-[inset_0_1px_0_0_rgba(255,255,255,0.9)] bg-gradient-to-b from-white/50 to-white/30;
+    @apply bg-[#f0f0f0] shadow-[inset_0_1px_0_0_rgba(255,255,255,0.9)] bg-gradient-to-b from-white/50 to-white/30;
   }
 }

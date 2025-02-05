@@ -13,8 +13,8 @@ export const GlassCard = ({ children, className, ...props }: GlassCardProps) => 
       animate={{ opacity: 1, y: 0 }}
       className={cn(
         "rounded-3xl glass neomorphic p-8",
-        "bg-gradient-to-b from-white/40 to-white/10",
-        "shadow-[0_8px_32px_0_rgba(31,38,135,0.37)]",
+        "bg-gradient-to-b from-white/50 to-white/20",
+        "shadow-[20px_20px_60px_#bebebe,-20px_-20px_60px_#ffffff]",
         "border border-white/20",
         "backdrop-blur-lg",
         className

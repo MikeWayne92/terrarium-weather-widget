@@ -34,7 +34,7 @@ export const WeatherDisplay = ({ temperature, condition, humidity }: WeatherDisp
       <motion.div
         initial={{ scale: 0.9, opacity: 0 }}
         animate={{ scale: 1, opacity: 1 }}
-        className="w-40 h-40"
+        className="w-40 h-40 rounded-full neomorphic shadow-[inset_5px_5px_10px_#bebebe,inset_-5px_-5px_10px_#ffffff] p-4"
       >
         <Player
           autoplay
@@ -49,11 +49,11 @@ export const WeatherDisplay = ({ temperature, condition, humidity }: WeatherDisp
         animate={{ y: 0, opacity: 1 }}
         className="text-center space-y-3"
       >
-        <h1 className="text-6xl font-bold text-gray-800">{temperature}°</h1>
-        <p className="text-xl text-gray-600 capitalize">{condition}</p>
+        <h1 className="text-6xl font-bold bg-gradient-to-r from-gray-700 to-gray-900 bg-clip-text text-transparent">{temperature}°</h1>
+        <p className="text-xl text-gray-600 capitalize neomorphic px-4 py-2 rounded-lg shadow-[3px_3px_6px_#bebebe,-3px_-3px_6px_#ffffff]">{condition}</p>
         <div className="flex items-center justify-center gap-2 text-gray-500">
           <span className="text-sm">Humidity</span>
-          <span className="text-lg font-semibold">{humidity}%</span>
+          <span className="text-lg font-semibold neomorphic px-3 py-1 rounded-md shadow-[2px_2px_4px_#bebebe,-2px_-2px_4px_#ffffff]">{humidity}%</span>
         </div>
       </motion.div>
     </div>
