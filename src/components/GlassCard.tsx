@@ -1,6 +1,6 @@
 import { cn } from "@/lib/utils";
 import { motion, HTMLMotionProps } from "framer-motion";
-import { useState, useRef, useEffect } from "react";
+import { useState, useRef } from "react";
 
 interface GlassCardProps extends HTMLMotionProps<"div"> {
   children: React.ReactNode;
@@ -33,12 +33,12 @@ export const GlassCard = ({ children, className, ...props }: GlassCardProps) => 
       style={{
         boxShadow: `${mousePosition.x * 20}px ${
           mousePosition.y * 20
-        }px 60px #bebebe, ${-mousePosition.x * 20}px ${
+        }px 60px rgba(190,190,190,0.3), ${-mousePosition.x * 20}px ${
           -mousePosition.y * 20
-        }px 60px #ffffff`
+        }px 60px rgba(255,255,255,0.3)`
       }}
       className={cn(
-        "rounded-3xl glass neomorphic p-8",
+        "rounded-3xl glass neomorphic p-6 md:p-8 relative z-10",
         "bg-gradient-to-b from-white/50 to-white/20 dark:from-gray-800/50 dark:to-gray-900/20",
         "border border-white/20 dark:border-gray-700/20",
         "backdrop-blur-lg",
