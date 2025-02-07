@@ -1,11 +1,7 @@
 
-# Weather Glass - Lovable Weather Application
+# Weather Glass - Weather Application
 
 A beautiful weather application built with React, featuring real-time weather updates with animated icons and a stunning glass-morphic UI design that adapts to both light and dark modes.
-
-## Project info
-
-**URL**: https://lovable.dev/projects/090cb084-423e-44d5-8c99-4ac84dc5434f
 
 ## Features
 
@@ -31,15 +27,6 @@ This project is built with modern web technologies:
 - Lottie Animations
 - OpenWeather API
 
-## How can I edit this code?
-
-There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/090cb084-423e-44d5-8c99-4ac84dc5434f) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
 
 **Use your preferred IDE**
 
@@ -63,13 +50,6 @@ npm i
 npm run dev
 ```
 
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/090cb084-423e-44d5-8c99-4ac84dc5434f) and click on Share -> Publish.
-
-## Custom Domain Setup
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
 
 ## Environment Variables
 
