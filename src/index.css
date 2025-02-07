@@ -1,3 +1,4 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -56,10 +57,17 @@
 
 @layer utilities {
   .glass {
-    @apply bg-white/30 dark:bg-black/30 backdrop-blur-md border border-white/20 dark:border-white/10 shadow-lg;
+    @apply bg-white/10 dark:bg-black/10 
+           backdrop-blur-xl 
+           border border-white/20 dark:border-white/10 
+           shadow-[0_8px_32px_rgba(0,0,0,0.1)] 
+           dark:shadow-[0_8px_32px_rgba(0,0,0,0.3)];
   }
   
   .neomorphic {
-    @apply bg-[#f0f0f0] dark:bg-gray-800 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.9)] dark:shadow-[inset_0_1px_0_0_rgba(255,255,255,0.1)] bg-gradient-to-b from-white/50 to-white/30 dark:from-gray-700/50 dark:to-gray-900/30;
+    @apply bg-gradient-to-b from-white/50 to-white/30 
+           dark:from-gray-800/50 dark:to-gray-900/30
+           shadow-[inset_0_1px_0_0_rgba(255,255,255,0.9)] 
+           dark:shadow-[inset_0_1px_0_0_rgba(255,255,255,0.1)];
   }
 }

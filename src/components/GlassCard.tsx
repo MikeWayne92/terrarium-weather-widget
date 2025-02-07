@@ -1,3 +1,4 @@
+
 import { cn } from "@/lib/utils";
 import { motion, HTMLMotionProps } from "framer-motion";
 import { useState, useRef } from "react";
@@ -38,11 +39,12 @@ export const GlassCard = ({ children, className, ...props }: GlassCardProps) => 
         }px 60px rgba(255,255,255,0.3)`
       }}
       className={cn(
-        "rounded-3xl glass neomorphic p-6 md:p-8 relative z-10",
-        "bg-gradient-to-b from-white/50 to-white/20 dark:from-gray-800/50 dark:to-gray-900/20",
+        "rounded-3xl glass p-6 md:p-8 relative z-10",
+        "bg-gradient-to-b from-white/30 to-white/10 dark:from-gray-800/30 dark:to-gray-900/10",
         "border border-white/20 dark:border-gray-700/20",
-        "backdrop-blur-lg",
-        "transition-shadow duration-200",
+        "backdrop-blur-xl",
+        "shadow-lg dark:shadow-2xl",
+        "transition-all duration-200",
         className
       )}
       {...props}
